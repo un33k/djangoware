@@ -1,3 +1,10 @@
+## 0.0.4
+
+Enhancement:
+
+* Add staging example file
+* Clean up readme file
+
 ## 0.0.3
 
 Enhancement:
