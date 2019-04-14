@@ -1,4 +1,4 @@
 These are example files.
-You should keep your secret config files somewhere else on your system
-You should make the files readonly
-You should simlink to the proper seekret file and place it in this project directory
+Please put the secret configs outside the django project.
+Please make secret configs readonly.
+Please use symlinks to reference your secret configs and only put symlinks in the project directory.
