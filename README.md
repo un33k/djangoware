@@ -62,7 +62,7 @@ $ bin/production/manage.py collectstatic
 2. Ensure that seekrets.json is stored in a separate private repo
 3. The `collectstatic` stores the static artifacts in `assets/collect` by default
 4. If AWS credentials are set in seekrets.json, `collectstatic` stores the static artifacts to your `S3` buckets.
-5. Use `www/wsgi/production.py` with your production webserver
+5. Use `www/wsgi/production.py` with your production wsgi server
 
 How to TEST
 ======================
@@ -81,14 +81,20 @@ $ bin/development/manage.py migrate
 $ bin/test/api_test.sh -a
 ```
 **Note:**
-1. `api_test.sh -a` performs various tests via the REST API
-2. Create a user
-3. Delete a user
-4. Chagne a passowrd
-5. If user exists
-6. Test throttling API requests
+- `api_test.sh -h` shows help
+- `api_test.sh -a` performs various tests via the REST API
+- Create a user
+- Delete a user
+- Chagne a passowrd
+- If user exists
+- Test throttling API requests
 
 License
 ====================
 
 Released under a ([MIT](LICENSE)) license.
+
+Sponsors
+====================
+
+[![Surge](https://www.surgeforward.com/wp-content/themes/understrap-master/images/logo.png)](https://github.com/surgeforward)
