@@ -8,7 +8,7 @@ Overview
 
 **Djangoware** attempts to layout a Django project based on the best practices
 
-This is a starter project and it's meant to speed up your development to production process.  Many measures have been taken to ensure your production instance(s) remain secure.  You still need to make it your own!
+This is a starter project and it's meant to speed up your development to production process.  Many measures have been taken to ensure your production instance(s) remain secure.  You still need to make this starter project your own!
 
 Please note that Djangoware is not an installable application.  Djangoware can be considered as a blueprint of your next Django project.  Simply fork the project, rename it to what you want and modify seekrets.json to reflect your needs.
 
@@ -97,4 +97,4 @@ Released under a ([MIT](LICENSE)) license.
 Sponsors
 ====================
 
-[![Surge](https://www.surgeforward.com/wp-content/themes/understrap-master/images/logo.png)](https://github.com/surgeforward)
+[Surge](https://github.com/surgeforward)
