@@ -18,7 +18,7 @@
   "DEFAULT_DB_PASS": "dbPass4DjangowareSta",
   "DEFAULT_DB_SSLMODE": "disable",
   "CSRF_TRUSTED_ORIGINS": ["app.sta.djangoware.io"],
-  "CORS_TRUSTED_ORIGINS": ["app.sta.djangoware.io"],
+  "CORS_TRUSTED_ORIGINS": ["http://app.sta.djangoware.io", "https://app.sta.djangoware.io"],
   "AWS_USER": "djangoware_user",
   "AWS_ID": "",
   "AWS_SECRET": "",

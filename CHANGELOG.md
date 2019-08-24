@@ -1,3 +1,10 @@
+## 0.0.5
+
+Enhancement:
+
+* Upgraded all packages
+* Clean up readme file
+
 ## 0.0.4
 
 Enhancement:
