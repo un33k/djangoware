@@ -6,8 +6,8 @@ python:
   - "3.5"
   - "pypy3"
 
-  env:
-  - DEPLOYMENT_FLAVOR="STAGING"
+env:
+  - DEPLOYMENT_FLAVOR=STAGING
 
 install:
   - pip install -r env/requirements/staging.txt
