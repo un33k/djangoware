@@ -23,7 +23,7 @@ User = get_user_model()
 class ProfileCreateThrottleOnePerDayTestCase(TestCase):
     def setUp(self):
         from django.conf import settings
-        settings.REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['profile_create'] = '1/day'
+        settings.REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['profile_create'] = '1/second'
         self.url = reverse(get_url_name(__name__, 'api-profile-create'))
 
     def test_create_one_per_day(self):
@@ -40,7 +40,7 @@ class ProfileCreateThrottleOnePerDayTestCase(TestCase):
 class ProfileCreateThrottleTwoPerDayTestCase(TestCase):
     def setUp(self):
         from django.conf import settings
-        settings.REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['profile_create'] = '3/day'
+        settings.REST_FRAMEWORK['DEFAULT_THROTTLE_RATES']['profile_create'] = '3/second'
         self.url = reverse(get_url_name(__name__, 'api-profile-create'))
 
     def test_create_two_per_day_success(self):

@@ -17,7 +17,9 @@ def get_api_version(module_name=None):
     """
     if module_name is None:
         return None
-    version = module_name.split('.')[0].split('api_v')[1]
+    parts = [a for a in module_name.split('.') if 'api_v' in a]
+    if len(parts):
+        version = parts[0].split('api_v')[1]
     return version
 
 
