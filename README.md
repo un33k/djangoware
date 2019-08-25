@@ -4,7 +4,6 @@ Django Backend Starter
 **A simple Django starter project**
 
 [![status-image]][status-link]
-[![version-image]][version-link]
 [![coverage-image]][coverage-link]
 
 Overview
@@ -108,9 +107,6 @@ X.Y.Z Version
 
 [status-image]: https://secure.travis-ci.org/un33k/djangoware.png?branch=master
 [status-link]: http://travis-ci.org/un33k/djangoware?branch=master
-
-[version-image]: https://img.shields.io/pypi/v/djangoware.svg
-[version-link]: https://pypi.python.org/pypi/djangoware
 
 [coverage-image]: https://coveralls.io/repos/un33k/djangoware/badge.svg
 [coverage-link]: https://coveralls.io/r/un33k/djangoware
