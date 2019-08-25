@@ -3,6 +3,9 @@ Django Backend Starter
 
 **A simple Django starter project**
 
+[![status-image]][status-link]
+[![coverage-image]][coverage-link]
+
 Overview
 ======================
 
@@ -93,6 +96,23 @@ License
 ====================
 
 Released under a ([MIT](LICENSE)) license.
+
+Version
+====================
+X.Y.Z Version
+
+    `MAJOR` version -- when you make incompatible API changes,
+    `MINOR` version -- when you add functionality in a backwards-compatible manner, and
+    `PATCH` version -- when you make backwards-compatible bug fixes.
+
+[status-image]: https://secure.travis-ci.org/un33k/djangoware.png?branch=master
+[status-link]: http://travis-ci.org/un33k/djangoware?branch=master
+
+[coverage-image]: https://coveralls.io/repos/un33k/djangoware/badge.svg
+[coverage-link]: https://coveralls.io/r/un33k/djangoware
+
+[download-image]: https://img.shields.io/pypi/dm/djangoware.svg
+[download-link]: https://pypi.python.org/pypi/djangoware
 
 Sponsors
 ====================

@@ -1,3 +1,9 @@
+## 0.0.6
+
+Enhancement:
+
+* Add CI support
+
 ## 0.0.5
 
 Enhancement:

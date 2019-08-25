@@ -12,15 +12,15 @@ from .base.defaults import *
 
 TESTING = True
 
-# ALLOWED_FLAVOR = 'TESTING'
+DISALLOWED_FLAVOR = 'PRODUCTION'
 
-# Prevent code running on non-development servers
-if DEPLOYMENT_FLAVOR != ALLOWED_FLAVOR:
+# Prevent code running on production servers
+if DEPLOYMENT_FLAVOR == DISALLOWED_FLAVOR:
     warnings.warn('Invalid Django server type. {}'.format(DEPLOYMENT_FLAVOR))
     sys.exit(0)
 
-# Ensure the settings point to development assets
-if CONFIGURATION_FLAVOR != ALLOWED_FLAVOR:
+# Ensure the settings point to non-production assets
+if CONFIGURATION_FLAVOR == DISALLOWED_FLAVOR:
     warnings.warn('Invalid Django settings file. {}'.format(CONFIGURATION_FLAVOR))
     sys.exit(0)
 
