@@ -1,3 +1,9 @@
+## 1.0.0
+
+Enhancement:
+
+* Dropped 2.7 and <= 3.5
+
 ## 0.0.6
 
 Enhancement:

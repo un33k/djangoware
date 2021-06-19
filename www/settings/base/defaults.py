@@ -90,7 +90,8 @@ TEMPLATES = [
                 'django.templatetags.l10n',
                 'django.templatetags.tz',
                 'django.contrib.humanize.templatetags.humanize',
-                'django.contrib.staticfiles.templatetags.staticfiles',
+                'django.templatetags.static',
+                # 'django.contrib.staticfiles.templatetags.staticfiles',
                 'sitewide.templatetags.languages',
             ],
             'loaders': (
@@ -140,6 +141,7 @@ DATABASES_OPTIONS = {
     }
 }
 DATABASES = {'default': DATABASES_OPTIONS[DEFAULT_DB_ENGINE]}
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 # Cache Related
 #######################################

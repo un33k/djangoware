@@ -1,4 +1,9 @@
 {
   "python.linting.enabled": false,
-  "python.pythonPath": "/usr/local/bin/python3",
+  "python.pythonPath": "/Users/val/Sandbox/.venv/djangoware/bin/python",
+  "cSpell.words": [
+    "CSRF",
+    "Djangoware",
+    "Neekware"
+  ],
 }
