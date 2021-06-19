@@ -9,4 +9,4 @@
 
 __author__ = 'Val Neekman, Neekware Inc. [neekware.com]'
 __description__ = 'Neekware Inc.'
-__version__ = '0.0.6'
+__version__ = '1.0.0'

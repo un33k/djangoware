@@ -17,7 +17,7 @@ Please note that Djangoware is not an installable application.  Djangoware can b
 
 Notice
 ======================
-Djangoware uses Django 2+, hence it ONLY works with Python 3.
+Djangoware Python 3.6+
 
 How to use (DEVELOPMENT)
 ======================

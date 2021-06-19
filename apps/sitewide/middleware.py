@@ -10,7 +10,7 @@ from ipware import get_client_ip
 
 
 class ProcessIpAddressMiddleware:
-    """ Grap the IP address from the header """
+    """ Grab the IP address from the header """
 
     def __init__(self, get_response):
         self.get_response = get_response

@@ -9,7 +9,6 @@
 import logging
 
 from django.conf import settings
-from django.utils import six
 from django.contrib.auth import get_user_model
 from django.utils.translation import ugettext as _
 from django.core import exceptions
